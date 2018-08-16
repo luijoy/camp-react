@@ -100,6 +100,19 @@ a {
   font-weight: bold;
 }
 
+.reset {
+  border: none;
+  background: transparent;
+  color: #d0021d;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
 .nav li {
   margin-right: 15px;
 }
@@ -134,3 +147,4 @@ a {
 .button:active {
   transform: translateY(1px);
 }
+

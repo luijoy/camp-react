@@ -1,4 +1,4 @@
-var axios = require ('axios');
+const axios = require ('axios');
 
 function getProfile (username) {
   return axios
@@ -9,7 +9,7 @@ function getProfile (username) {
 }
 
 function getRepos (username) {
-  return axios.get ('https://api.github.com/users/' + username + '/repos');
+  return axios.get (`https://api.github.com/users/${username}/repos`);
 }
 
 function getStarCount (repos) {
